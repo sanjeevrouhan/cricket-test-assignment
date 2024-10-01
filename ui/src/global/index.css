@@ -1,0 +1,53 @@
+.accordion-collapse {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.accordion-collapse.show {
+    max-height: 2000px;
+    /* Increased max-height to accommodate more content */
+    opacity: 1;
+}
+
+.custom-accordion-body {
+    transition: padding 0.5s ease-in-out;
+    padding: 0;
+}
+
+/* Add a transition for the accordion button arrow */
+.accordion-button::after {
+    transition: transform 0.5s ease-in-out;
+}
+
+.alert {
+    border-radius: 1px;
+}
+
+th {
+    background: #e2e3e5 !important
+}
+
+.grey {
+    background: #e2e3e5 !important
+}
+
+.run-tag {
+    border-radius: 16%;
+    border: 1px solid grey;
+    margin-left: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.total-balls {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+    margin-left: 2px;
+}

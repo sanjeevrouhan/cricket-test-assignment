@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "60b8f2d87e4a8a1234567891",
+    "name": "Virat Kohli",
+    "dateOfBirth": "1988-11-05",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "team": "60b8f2d87e4a8a1234567890"
+  },
+  {
+    "_id": "60b8f2d87e4a8a1234567892",
+    "name": "AB de Villiers",
+    "dateOfBirth": "1984-02-17",
+    "country": "South Africa",
+    "role": "Wicket-keeper batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "team": "60b8f2d87e4a8a1234567890"
+  },
+  {
+    "_id": "60b8f2d87e4a8a1234567893",
+    "name": "Yuzvendra Chahal",
+    "dateOfBirth": "1990-07-23",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm leg break",
+    "team": "60b8f2d87e4a8a1234567890"
+  },
+  {
+    "_id": "60b8f2d87e4a8a1234567897",
+    "name": "Rohit Sharma",
+    "dateOfBirth": "1987-04-30",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "team": "60b8f2d87e4a8a1234567896"
+  },
+  {
+    "_id": "60b8f2d87e4a8a1234567898",
+    "name": "Jasprit Bumrah",
+    "dateOfBirth": "1993-12-06",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "team": "60b8f2d87e4a8a1234567896"
+  },
+  {
+    "_id": "60b8f2d87e4a8a123456789d",
+    "name": "MS Dhoni",
+    "dateOfBirth": "1981-07-07",
+    "country": "India",
+    "role": "Wicket-keeper batsman",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "team": "60b8f2d87e4a8a123456789c"
+  },
+  {
+    "_id": "60b8f2d87e4a8a123456789e",
+    "name": "Ravindra Jadeja",
+    "dateOfBirth": "1988-12-06",
+    "country": "India",
+    "role": "All-rounder",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm orthodox",
+    "team": "60b8f2d87e4a8a123456789c"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678a3",
+    "name": "Andre Russell",
+    "dateOfBirth": "1988-04-29",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "team": "60b8f2d87e4a8a12345678a2"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678a4",
+    "name": "Sunil Narine",
+    "dateOfBirth": "1988-05-26",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "team": "60b8f2d87e4a8a12345678a2"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678a9",
+    "name": "Rishabh Pant",
+    "dateOfBirth": "1997-10-04",
+    "country": "India",
+    "role": "Wicket-keeper batsman",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm medium",
+    "team": "60b8f2d87e4a8a12345678a8"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678aa",
+    "name": "Kagiso Rabada",
+    "dateOfBirth": "1995-05-25",
+    "country": "South Africa",
+    "role": "Bowler",
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm fast",
+    "team": "60b8f2d87e4a8a12345678a8"
+  }
+]

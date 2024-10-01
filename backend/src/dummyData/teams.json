@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "60b8f2d87e4a8a1234567890",
+    "name": "Royal Challengers Bangalore",
+    "shortName": "RCB",
+    "logo": "https://example.com/logos/rcb.png",
+    "country": "India",
+    "players": [
+      "60b8f2d87e4a8a1234567891",
+      "60b8f2d87e4a8a1234567892",
+      "60b8f2d87e4a8a1234567893",
+      "60b8f2d87e4a8a1234567894",
+      "60b8f2d87e4a8a1234567895"
+    ],
+    "captain": "60b8f2d87e4a8a1234567891"
+  },
+  {
+    "_id": "60b8f2d87e4a8a1234567896",
+    "name": "Mumbai Indians",
+    "shortName": "MI",
+    "logo": "https://example.com/logos/mi.png",
+    "country": "India",
+    "players": [
+      "60b8f2d87e4a8a1234567897",
+      "60b8f2d87e4a8a1234567898",
+      "60b8f2d87e4a8a1234567899",
+      "60b8f2d87e4a8a123456789a",
+      "60b8f2d87e4a8a123456789b"
+    ],
+    "captain": "60b8f2d87e4a8a1234567897"
+  },
+  {
+    "_id": "60b8f2d87e4a8a123456789c",
+    "name": "Chennai Super Kings",
+    "shortName": "CSK",
+    "logo": "https://example.com/logos/csk.png",
+    "country": "India",
+    "players": [
+      "60b8f2d87e4a8a123456789d",
+      "60b8f2d87e4a8a123456789e",
+      "60b8f2d87e4a8a123456789f",
+      "60b8f2d87e4a8a12345678a0",
+      "60b8f2d87e4a8a12345678a1"
+    ],
+    "captain": "60b8f2d87e4a8a123456789d"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678a2",
+    "name": "Kolkata Knight Riders",
+    "shortName": "KKR",
+    "logo": "https://example.com/logos/kkr.png",
+    "country": "India",
+    "players": [
+      "60b8f2d87e4a8a12345678a3",
+      "60b8f2d87e4a8a12345678a4",
+      "60b8f2d87e4a8a12345678a5",
+      "60b8f2d87e4a8a12345678a6",
+      "60b8f2d87e4a8a12345678a7"
+    ],
+    "captain": "60b8f2d87e4a8a12345678a3"
+  },
+  {
+    "_id": "60b8f2d87e4a8a12345678a8",
+    "name": "Delhi Capitals",
+    "shortName": "DC",
+    "logo": "https://example.com/logos/dc.png",
+    "country": "India",
+    "players": [
+      "60b8f2d87e4a8a12345678a9",
+      "60b8f2d87e4a8a12345678aa",
+      "60b8f2d87e4a8a12345678ab",
+      "60b8f2d87e4a8a12345678ac",
+      "60b8f2d87e4a8a12345678ad"
+    ],
+    "captain": "60b8f2d87e4a8a12345678a9"
+  }
+]
