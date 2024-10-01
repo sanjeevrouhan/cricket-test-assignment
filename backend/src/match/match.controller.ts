@@ -9,8 +9,6 @@ import {
 } from '@nestjs/common';
 import { MatchService } from './match.service';
 import { IMatch } from 'src/schemas/match.schema';
-import * as fs from 'fs';
-import * as path from 'path';
 @Controller('match')
 export class MatchController {
   constructor(private readonly matchService: MatchService) {}
@@ -38,21 +36,5 @@ export class MatchController {
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.matchService.remove(id);
-  }
-
-  @Post('/seed')
-  addMatch() {
-    const filePath = path.join(
-      __dirname,
-      '..',
-      '..',
-      'src',
-      'dummyData',
-      'matches.json',
-    );
-    const jsonData = fs.readFileSync(filePath, 'utf-8');
-    const matches = JSON.parse(jsonData);
-    const data = matches[0];
-    return this.matchService.seed(data);
   }
 }

@@ -27,7 +27,13 @@ export const PlayerSchema: Schema = new Schema(
     role: {
       type: String,
       required: true,
-      enum: ['Batsman', 'Bowler', 'All-rounder', 'Wicket-keeper'],
+      enum: [
+        'Batsman',
+        'Bowler',
+        'All-rounder',
+        'Wicket-keeper',
+        'Wicket-keeper-batsman',
+      ],
     },
     battingStyle: {
       type: String,
@@ -37,13 +43,14 @@ export const PlayerSchema: Schema = new Schema(
     bowlingStyle: {
       type: String,
       enum: [
-        'Right-arm fast',
-        'Left-arm fast',
-        'Right-arm medium',
-        'Left-arm medium',
-        'Right-arm off-break',
-        'Left-arm orthodox',
+        'Right-arm-fast',
+        'Left-arm-fast',
+        'Right-arm-medium',
+        'Left-arm-medium',
+        'Right-arm-off-break',
+        'Left-arm-orthodox',
         'Leg-break',
+        'Right-arm-leg-break',
       ],
     },
     jerseyNumber: { type: Number },

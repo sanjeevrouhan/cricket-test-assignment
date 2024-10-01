@@ -19,8 +19,8 @@ const BallCommentary = () => {
 
   // Function to handle delete action
   const handleDelete = (id: string) => {
-    setComments(comments.filter((comment) => comment._id !== id));
-    setVisibleDropdown(null); // Close the dropdown after delete
+    // setComments(comments.filter((comment) => comment._id !== id));
+    // setVisibleDropdown(null); // Close the dropdown after delete
   };
 
   // Function to toggle dropdown visibility

@@ -3,11 +3,14 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { CreatePlayerDto } from './dto/create-player.dto';
 import { UpdatePlayerDto } from './dto/update-player.dto';
-import { IPlayer } from 'src/schemas/player.schema';
+import { IPlayer } from '../schemas/player.schema';
+import { getJson } from '../common/utils/fileReaders';
 
 @Injectable()
 export class PlayerService {
-  constructor(@InjectModel('Player') private playerModel: Model<IPlayer>) {}
+  constructor(@InjectModel('Player') private playerModel: Model<IPlayer>) {
+    //
+  }
 
   async create(createPlayerDto: CreatePlayerDto): Promise<IPlayer> {
     const createdPlayer = new this.playerModel(createPlayerDto);
@@ -96,8 +99,14 @@ export class PlayerService {
     return this.playerModel.findByIdAndDelete(id).exec();
   }
 
-  async seedPlayers(players: Partial<IPlayer>[]): Promise<string> {
-    const savedPlayers = await this.playerModel.insertMany(players);
-    return `Successfully seeded ${savedPlayers.length} players`;
+  async seed() {
+    const data = getJson('players');
+    for (const item of data) {
+      const exists = await this.playerModel.findOne({ _id: item._id });
+      if (!exists) {
+        await this.playerModel.create(item);
+      }
+    }
+    return 'Seed operation completed';
   }
 }

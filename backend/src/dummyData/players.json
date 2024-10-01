@@ -6,7 +6,7 @@
     "country": "India",
     "role": "Batsman",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm medium",
+    "bowlingStyle": "Right-arm-medium",
     "team": "60b8f2d87e4a8a1234567890"
   },
   {
@@ -14,9 +14,9 @@
     "name": "AB de Villiers",
     "dateOfBirth": "1984-02-17",
     "country": "South Africa",
-    "role": "Wicket-keeper batsman",
+    "role": "Wicket-keeper-batsman",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm medium",
+    "bowlingStyle": "Right-arm-medium",
     "team": "60b8f2d87e4a8a1234567890"
   },
   {
@@ -26,7 +26,7 @@
     "country": "India",
     "role": "Bowler",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm leg break",
+    "bowlingStyle": "Right-arm-leg-break",
     "team": "60b8f2d87e4a8a1234567890"
   },
   {
@@ -36,7 +36,7 @@
     "country": "India",
     "role": "Batsman",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm off break",
+    "bowlingStyle": "Right-arm-off-break",
     "team": "60b8f2d87e4a8a1234567896"
   },
   {
@@ -46,7 +46,7 @@
     "country": "India",
     "role": "Bowler",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm fast",
+    "bowlingStyle": "Right-arm-fast",
     "team": "60b8f2d87e4a8a1234567896"
   },
   {
@@ -54,9 +54,9 @@
     "name": "MS Dhoni",
     "dateOfBirth": "1981-07-07",
     "country": "India",
-    "role": "Wicket-keeper batsman",
+    "role": "Wicket-keeper-batsman",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm medium",
+    "bowlingStyle": "Right-arm-medium",
     "team": "60b8f2d87e4a8a123456789c"
   },
   {
@@ -66,7 +66,7 @@
     "country": "India",
     "role": "All-rounder",
     "battingStyle": "Left-handed",
-    "bowlingStyle": "Left-arm orthodox",
+    "bowlingStyle": "Left-arm-orthodox",
     "team": "60b8f2d87e4a8a123456789c"
   },
   {
@@ -76,7 +76,7 @@
     "country": "West Indies",
     "role": "All-rounder",
     "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm fast",
+    "bowlingStyle": "Right-arm-fast",
     "team": "60b8f2d87e4a8a12345678a2"
   },
   {
@@ -86,7 +86,7 @@
     "country": "West Indies",
     "role": "All-rounder",
     "battingStyle": "Left-handed",
-    "bowlingStyle": "Right-arm off-break",
+    "bowlingStyle": "Right-arm-off-break",
     "team": "60b8f2d87e4a8a12345678a2"
   },
   {
@@ -94,9 +94,9 @@
     "name": "Rishabh Pant",
     "dateOfBirth": "1997-10-04",
     "country": "India",
-    "role": "Wicket-keeper batsman",
+    "role": "Wicket-keeper-batsman",
     "battingStyle": "Left-handed",
-    "bowlingStyle": "Right-arm medium",
+    "bowlingStyle": "Right-arm-medium",
     "team": "60b8f2d87e4a8a12345678a8"
   },
   {
@@ -106,7 +106,7 @@
     "country": "South Africa",
     "role": "Bowler",
     "battingStyle": "Left-handed",
-    "bowlingStyle": "Right-arm fast",
+    "bowlingStyle": "Right-arm-fast",
     "team": "60b8f2d87e4a8a12345678a8"
   }
 ]

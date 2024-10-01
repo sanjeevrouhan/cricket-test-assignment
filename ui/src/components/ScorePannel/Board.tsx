@@ -80,7 +80,8 @@ const defaultCurrentBallInfo: any = {
   bowler: null,
 };
 
-export default function Commentary(matchId = "60b8f2d87e4a8a12345678b5") {
+export default function Commentary() {
+  const [matchId, setMatchId] = useState("60b8f2d87e4a8a12345678b5");
   const [loading, setLoading] = useState(true);
   const [totalOvers, setTotalOvers] = useState(20);
 
@@ -416,7 +417,7 @@ export default function Commentary(matchId = "60b8f2d87e4a8a12345678b5") {
       //   Send Data to API
       sendBallData({
         ...ballInfo,
-        matchId: matchId,
+        matchId,
         commentary: commentaryText,
         batsman: ballInfo.strikerBatsman.value,
         nonStriker: ballInfo.nonStrikerBatsman.value,
@@ -434,6 +435,7 @@ export default function Commentary(matchId = "60b8f2d87e4a8a12345678b5") {
   useEffect(() => {
     const fetchMatch = async () => {
       const match = await getMatch();
+      console.log("match", match);
       const matchCommentary = await getCommentary();
       setBallCommentary(matchCommentary.data);
       const { teams } = match.data;

@@ -1,7 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
-import { IMatch } from 'src/schemas/match.schema';
+import { IMatch } from '../schemas/match.schema';
+import { getJson } from '../common/utils/fileReaders';
 
 @Injectable()
 export class MatchService {
@@ -39,7 +40,14 @@ export class MatchService {
     return `This action removes a #${id} match`;
   }
 
-  seed(createMatchDto) {
-    return this.matchModel.create(createMatchDto);
+  async seed() {
+    const data = getJson('matches');
+    for (const team of data) {
+      const existingTeam = await this.matchModel.findOne({ id: team.id });
+      if (!existingTeam) {
+        await this.matchModel.create(team);
+      }
+    }
+    return 'Seed operation completed';
   }
 }

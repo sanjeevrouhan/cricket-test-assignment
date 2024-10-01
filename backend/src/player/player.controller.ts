@@ -10,8 +10,6 @@ import {
 import { PlayerService } from './player.service';
 import { CreatePlayerDto } from './dto/create-player.dto';
 import { UpdatePlayerDto } from './dto/update-player.dto';
-import * as fs from 'fs';
-import * as path from 'path';
 
 @Controller('player')
 export class PlayerController {
@@ -40,23 +38,5 @@ export class PlayerController {
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.playerService.remove(id);
-  }
-
-  @Post('seed')
-  async seed() {
-    try {
-      const filePath = path.join(
-        __dirname,
-        '..',
-        '..',
-        'dummyData',
-        'players.json',
-      );
-      const data = await fs.promises.readFile(filePath, 'utf8');
-      const players = JSON.parse(data);
-      return this.playerService.seedPlayers(players);
-    } catch (error) {
-      throw new Error(`Failed to seed players: ${error.message}`);
-    }
   }
 }
